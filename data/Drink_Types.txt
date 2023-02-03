@@ -1,0 +1,8 @@
+
+-- Insertion in Drink_Types Table
+
+INSERT INTO Drink_Types(type_id, type_name) VALUES(drink_types_seq.NEXTVAL, 'Tea'); -- ID = 1
+INSERT INTO Drink_Types(type_id, type_name) VALUES(drink_types_seq.NEXTVAL, 'Coffee'); -- ID = 2
+INSERT INTO Drink_Types(type_id, type_name) VALUES(drink_types_seq.NEXTVAL, 'Soda'); -- ID = 3
+INSERT INTO Drink_Types(type_id, type_name) VALUES(drink_types_seq.NEXTVAL, 'Lemonade'); -- ID = 4
+INSERT INTO Drink_Types(type_id, type_name) VALUES(drink_types_seq.NEXTVAL, 'Smoothie'); -- ID = 5

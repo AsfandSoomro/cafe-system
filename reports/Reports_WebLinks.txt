@@ -1,0 +1,15 @@
+Staff:
+http://WinXPIE-173179:8889/reports/rwservlet?server=WinXPIE-173179&destype=cache&desformat=htmlcss&report="C:\Documents and Settings\Admin\Desktop\Project\reports\staff.jsp"&userid=cafe/cafe@orcl
+
+PTO Letter:
+http://WinXPIE-173179:8889/reports/rwservlet?server=WinXPIE-173179&destype=cache&desformat=pdf&report="C:\Documents and Settings\Admin\Desktop\Project\reports\pto.jsp"&userid=cafe/cafe@orcl
+
+Drink Sales:
+http://WinXPIE-173179:8889/reports/rwservlet?server=WinXPIE-173179&destype=cache&desformat=htmlcss&report="C:\Documents and Settings\Admin\Desktop\Project\reports\drink_sales.jsp"&userid=cafe/cafe@orcl
+
+Drinks:
+http://WinXPIE-173179:8889/reports/rwservlet?server=WinXPIE-173179&destype=cache&desformat=htmlcss&report="C:\Documents and Settings\Admin\Desktop\Project\reports\drinks.jsp"&userid=cafe/cafe@orcl
+
+Customers:
+http://WinXPIE-173179:8889/reports/rwservlet?server=WinXPIE-173179&destype=cache&desformat=htmlcss&report="C:\Documents and Settings\Admin\Desktop\Project\reports\customers.jsp"&userid=cafe/cafe@orcl
+

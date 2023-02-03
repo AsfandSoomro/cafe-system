@@ -1,0 +1,47 @@
+-- View to see all the available Teas
+
+CREATE VIEW Teas AS
+SELECT Drinks.drink_id, Drinks.drink_name, Drinks.drink_price
+FROM Drinks, Drink_Types
+WHERE (Drinks.drink_type_id = Drink_Types.type_id) AND (Drink_Types.type_name = 'Tea');
+
+
+-- View to see all the available Coffees
+
+CREATE VIEW Coffees AS
+SELECT Drinks.drink_id, Drinks.drink_name, Drinks.drink_price
+FROM Drinks, Drink_Types
+WHERE (Drinks.drink_type_id = Drink_Types.type_id) AND (Drink_Types.type_name = 'Coffee');
+
+
+-- View to see all the available Sodas
+
+CREATE VIEW Sodas AS
+SELECT Drinks.drink_id, Drinks.drink_name, Drinks.drink_price
+FROM Drinks, Drink_Types
+WHERE (Drinks.drink_type_id = Drink_Types.type_id) AND (Drink_Types.type_name = 'Soda');
+
+
+-- View to see all the available Lemonades
+
+CREATE VIEW Lemonades AS
+SELECT Drinks.drink_id, Drinks.drink_name, Drinks.drink_price
+FROM Drinks, Drink_Types
+WHERE (Drinks.drink_type_id = Drink_Types.type_id) AND (Drink_Types.type_name = 'Lemonade');
+
+
+-- View to see all the available Smoothies
+
+CREATE VIEW Smoothies AS
+SELECT Drinks.drink_id, Drinks.drink_name, Drinks.drink_price
+FROM Drinks, Drink_Types
+WHERE (Drinks.drink_type_id = Drink_Types.type_id) AND (Drink_Types.type_name = 'Smoothie');
+
+
+
+-- Create View Syntax
+CREATE VIEW View_Name AS
+SELECT [column(s)]
+FROM [Table(s)]
+WHERE [Condition(s)];
+

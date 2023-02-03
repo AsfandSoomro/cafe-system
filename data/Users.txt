@@ -1,0 +1,68 @@
+
+-- Insertion in Users Table
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'asfand', 'asfand', 'Asfand', 'Soomro', 'asfandsoomro13@gmail.com', 'somewhere', 'Owner');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'jacob', 'jacob', 'Jacob', 'Hernandez', 'jacobhernandez@yahoo.com', 'Fort Worth', 'Manager');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'emily', 'emily', 'Emily', 'Taylor', 'emilytaylor12@hotmail.com', 'Jacksonville', 'Manager');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'john', 'john', 'John', 'Doe', 'johndoe1@gmail.com', 'New York', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'emma', 'emma', 'Emma', 'Smith', 'emmasmith2@yahoo.com', 'Chicago', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'jack', 'jack', 'Jack', 'Williams', 'jackwilliams3@hotmail.com', 'Los Angeles', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'oliver', 'oliver', 'Oliver', 'Jones', 'oliverjones4@gmail.com', 'Houston', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'chloe', 'chloe', 'Chloe', 'Brown', 'chloebrown5@yahoo.com', 'Phoenix', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'mia', 'mia', 'Mia', 'Miller', 'miamiller6@hotmail.com', 'Philadelphia', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'luke', 'luke', 'Luke', 'Davis', 'lukedavis7@gmail.com', 'San Antonio', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'isabella', 'isabella', 'Isabella', 'Garcia', 'isabellagarcia8@yahoo.com', 'San Diego', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'jacob', 'jacob', 'Jacob', 'Rodriguez', 'jacobrodriguez9@hotmail.com', 'Dallas', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'sophia', 'sophia', 'Sophia', 'Martinez', 'sophiamartinez10@gmail.com', 'San Jose', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'nathan', 'nathan', 'Nathan', 'Anderson', 'nathananderson11@yahoo.com', 'Austin', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'emily', 'emily', 'Emily', 'Taylor', 'emilytaylor12@hotmail.com', 'Jacksonville', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'ryan', 'ryan', 'Ryan', 'Thomas', 'ryanthomas13@gmail.com', 'Indianapolis', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'abigail', 'abigail', 'Abigail', 'Hernandez', 'abigailhernandez14@yahoo.com', 'Fort Worth', 'Customer');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'daniel', 'daniel', 'Daniel', 'Moore', 'danielmoore15@hotmail.com', 'Charlotte', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'ashley', 'ashley', 'Ashley', 'Smith', 'ashleysmith15@gmail.com', 'New York', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'sophia', 'sophia', 'Sophia', 'Johnson', 'sophiajohnson23@yahoo.com', 'Los Angeles', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'muhammad', 'muhammad', 'Muhammad', 'Williams', 'muhammadwilliams@gmail.com', 'Chicago', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'jose', 'jose', 'Jose', 'Jones', 'josejones@hotmail.com', 'Houston', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'kim', 'kim', 'Kim', 'Brown', 'kimbrown@gmail.com', 'Phoenix', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'fatima', 'fatima', 'Fatima', 'Garcia', 'fatimagarcia@yahoo.com', 'Philadelphia', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'ali', 'ali', 'Ali', 'Miller', 'alimiller@gmail.com', 'San Antonio', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'natalie', 'natalie', 'Natalie', 'Davis', 'nataliedavis@hotmail.com', 'San Diego', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'priya', 'priya', 'Priya', 'Rodriguez', 'priyarodriguez@gmail.com', 'Dallas', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'samir', 'samir', 'Samir', 'Martinez', 'samirmartinez@yahoo.com', 'San Jose', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'tracy', 'tracy', 'Tracy', 'Anderson', 'tracyanderson@gmail.com', 'Jacksonville', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'rajesh', 'rajesh', 'Rajesh', 'Taylor', 'rajeshtaylor@hotmail.com', 'Indianapolis', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'yasmin', 'yasmin', 'Yasmin', 'Thomas', 'yasminthomas@gmail.com', 'Austin', 'Employee');
+INSERT INTO Users (user_id, username, password, first_name, last_name, email, address, status) 
+VALUES (users_seq.NEXTVAL, 'sonia', 'sonia', 'Sonia', 'Moore', 'soniamoore@gmail.com', 'Columbus', 'Employee');
+-- More records via User Interface
+

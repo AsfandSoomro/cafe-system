@@ -1,0 +1,14 @@
+Project Account (Schema):
+	(SID: orcl)	
+	User: cafe
+	Password: cafe
+	
+Account(Schema) Creation Code:
+	CREATE USER cafe IDENTIFIED BY cafe;
+	GRANT SYSDBA to cafe;
+	-- or Just grant all privileges
+	GRANT ALL PRIVILEGES TO cafe;
+
+
+
+
